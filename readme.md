@@ -1,6 +1,8 @@
 # LibreOffice Headless with API in Docker
 
-A docker image that will run [LibreOffice](https://www.libreoffice.org) in headless mode, exposing its Universal Network Objects (UNO) API on port 8100.
+[![Docker Pulls](https://img.shields.io/docker/pulls/hdejager/libreoffice-api.svg?maxAge=2592000?style=plastic)](https://hub.docker.com/r/hdejager/libreoffice-api/)
+
+A docker image that will run [LibreOffice](https://www.libreoffice.org) in headless mode, exposing its [Universal Network Objects (UNO) API](https://api.libreoffice.org) on port 8100.
 
 I use this together with 2 brilliant Java libraries ([jodconverter](https://github.com/mirkonasato/jodconverter) and [jodreports](http://jodreports.sourceforge.net)) that consume the API to convert documents and generate reports based on [ODT](https://en.wikipedia.org/wiki/OpenDocument) templates.
 

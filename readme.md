@@ -13,7 +13,7 @@ For convenience I also include the [Universal Office Converter (unoconv)](https:
 
 ### Run
 
-`docker run -d --name libreoffice -p 8100:8100 hdejager/libreoffice-headless`
+`docker run -d --name libreoffice -p 8100:8100 hdejager/libreoffice-api`
 
 ### Try out unoconv (convert a HTML file to PDF):
 

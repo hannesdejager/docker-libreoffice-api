@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-slim
-MAINTAINER Hannes de Jager <hannes.de.jager@gmail.com>
+LABEL maintainer="Hannes de Jager <hannes.de.jager@gmail.com>"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get -y install \
   libreoffice-common \ 
